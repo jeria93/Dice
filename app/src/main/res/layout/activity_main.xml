@@ -41,4 +41,14 @@
         app:layout_constraintVertical_bias="0.337"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="You get 1 point after hitting two sixes in a row, try it out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
